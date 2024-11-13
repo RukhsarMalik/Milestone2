@@ -4,6 +4,9 @@ import Link from "next/link";
 import React from "react"
 import Typewriter from 'typewriter-effect';
 
+import pic from "../../../public/assests/pictures/pic.jpg";
+
+
 const Hero = ()=>{
     return(
  <section className="text-gray-600 body-font bg-gray-100 ">
@@ -14,7 +17,7 @@ const Hero = ()=>{
         alt="hero"
         width={500}
         height={500}
-        src={require("../../../public/assests/pictures/pic.jpg")}
+        src={pic}
       />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
