@@ -22,8 +22,12 @@ import pic from "../../../public/assests/pictures/pic.jpg";
        About Me
       </h1>
       <p className="mb-8 leading-relaxed">
-      I hold a Master's degree in Mathematics from the University of Karachi and bring six years of teaching experience to my current role as a Junior Elementary School Teacher (JEST) at Government Girls Elementary School Ahmedabad. Currently, I am also advancing my development as a student at GIAIC.
-      </p>
+              I hold a Master degree in Mathematics from the University of
+              Karachi and bring six years of teaching experience to my current
+              role as a Junior Elementary School Teacher (JEST) at Government
+              Girls Elementary School Ahmedabad. Currently, I am also advancing
+              my development as a student at GIAIC.
+            </p>
       <div className="flex justify-center">
         <button className="inline-flex text-white bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">
           <Link target="_blank" href="https://myresume-tau-jet.vercel.app/">
