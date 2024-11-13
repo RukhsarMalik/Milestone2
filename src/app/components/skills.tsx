@@ -1,6 +1,6 @@
 import React from "react";
 import {PiFileHtmlBold} from "react-icons/pi"
-import { PiFileCss } from "react-icons/pi";
+import { PiFileCssBold } from "react-icons/pi";
 import { TbBrandTypescript } from "react-icons/tb";
 import { RiNextjsLine } from "react-icons/ri";
 import { AiOutlinePython } from "react-icons/ai";
@@ -46,7 +46,7 @@ const Skill = ()=>{
             <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-gray-900 text-white flex-shrink-0">
-                        <PiFileCss className="text-xl" />
+                        <PiFileCssBold className="text-xl" />
                     </div>
                     <h2 className="text-gray-900 text-lg title-font font-medium">
                     CSS
