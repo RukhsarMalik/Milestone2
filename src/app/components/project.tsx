@@ -2,6 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+import resume from "../../../public/assests/pictures/resume.png";
+
 const Project = ()=>{
     return(
         <div id="Project">
@@ -15,7 +18,7 @@ const Project = ()=>{
                         <Image
                             alt="gallery"
                             className="w-full object-cover h-full object-center block opacity-50 absolute inset-0"
-                            src={require("../../../public/assests/pictures/resume.png")}
+                            src={resume}
                         />
                         <div className="text-center relative z-10 w-full">
                         <h2 className="text-2xl text-gray-900 font-medium title-font mb-2">
