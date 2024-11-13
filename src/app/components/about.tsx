@@ -2,6 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+import pic from "../../../public/assests/pictures/pic.jpg";
+
  const About = ()=>{
     return(
         <div id="About">
@@ -12,7 +15,7 @@ import React from "react";
       alt="hero"
       width={200}
       height={200}
-      src={require("../../../public/assests/pictures/pic.jpg")}
+      src={pic}
     />
     <div className="text-center lg:w-2/3 w-full">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
